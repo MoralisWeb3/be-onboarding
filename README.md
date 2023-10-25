@@ -29,3 +29,16 @@ Below are some important limitations of the scope of this assignment that will m
 2. Database of your choosing if you need one
 3. Programming language/framework of your choosing
 4. Obviously using any third-party web3/blockhain/crypto APIs (except for an RPC node with standard RPC procedures) is not allowed
+
+
+## HOMEWORK 2 - API for Own NFTs
+
+1. Install Metamask, get some assets into your Metamask and buy some NFTs on OpenSea. Get some NFTs on Polygon, Optimism and Base networks.
+2. Use your code from `HOMEWORK 1` to build an API where you can input your own address and get an array with all your NFTs across all chains. Example output below.
+
+```
+[
+  {name:"Optimistic Goosey (Goseman)", amount: 1, chain: "Optimism"},
+  {name:"Optimistic Plebe Pill", amount: 1, chain: "Polygon"}
+]
+```
